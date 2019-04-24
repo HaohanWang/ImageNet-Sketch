@@ -1,4 +1,6 @@
 .idea/*
 *.pyc
 downloads/*
-
+*downloads/*
+data/*
+ImageLoaderTesting/*
