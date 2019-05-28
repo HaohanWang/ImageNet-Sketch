@@ -14,3 +14,9 @@ and then we augment the data set by flipping and rotating the images.
 ## [Download the Data](https://drive.google.com/open?id=1Mj0i5HBthqH1p_yeXzsg22gZduvgoNeA) 
  - zip file is 7.8 GB
  - extracted files will be 8.4 GB
+
+## Reference
+
+The data set is introduced together with the following paper, so if you find this data set helpful, please consider cite: 
+    
+    Haohan Wang, Songwei Ge, Eric P. Xing, and Zachary C. Lipton. "Learning Robust Global Representations by Penalizing Local Predictive Power"
