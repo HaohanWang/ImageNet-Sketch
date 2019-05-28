@@ -1,5 +1,4 @@
-Google Images Download
-######################
+# Google Images Download
 
 Scripts to pull images from Google images
 
