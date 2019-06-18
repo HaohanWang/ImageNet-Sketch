@@ -13,9 +13,14 @@ and then we augment the data set by flipping and rotating the images.
 
 This github repository consists of the scripts we used to conduct query and clean images. 
 
-## [Download the Data](https://drive.google.com/open?id=1Mj0i5HBthqH1p_yeXzsg22gZduvgoNeA) 
- - zip file is 7.8 GB
- - extracted files will be 8.4 GB
+## Download the Data 
+
+ - Links
+     - from [Google Drive](https://drive.google.com/open?id=1Mj0i5HBthqH1p_yeXzsg22gZduvgoNeA)
+     - from [Kaggle](https://www.kaggle.com/wanghaohan/imagenetsketch)
+ - Information
+     - zip file is 7.8 GB
+     - extracted files will be 8.4 GB
 
 ## Reference
 
