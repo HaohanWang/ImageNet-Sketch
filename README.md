@@ -26,4 +26,13 @@ This github repository consists of the scripts we used to conduct query and clea
 
 The data set is introduced together with the following paper, so if you find this data set helpful, please consider cite: 
     
-    Haohan Wang, Songwei Ge, Eric P. Xing, and Zachary C. Lipton. "Learning Robust Global Representations by Penalizing Local Predictive Power"
+   [Learning Robust Global Representations by Penalizing Local Predictive Power](https://arxiv.org/abs/1905.13549)
+   
+@misc{wang2019learning,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title={Learning Robust Global Representations by Penalizing Local Predictive Power},  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author={Haohan Wang and Songwei Ge and Eric P. Xing and Zachary C. Lipton},  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year={2019},  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eprint={1905.13549},  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;archivePrefix={arXiv},  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;primaryClass={cs.CV}  
+}
