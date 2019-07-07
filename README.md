@@ -21,6 +21,11 @@ This github repository consists of the scripts we used to conduct query and clea
  - Information
      - zip file is 7.8 GB
      - extracted files will be 8.4 GB
+     
+## Analysis 
+
+ - An interesting analysis is performed at Kaggle, evaluating a large number of CNNs with our data set
+     - [Can pretrained ImageNet models generalize to sketches](https://www.kaggle.com/rwightman/generalization-to-imagenet-sketch)
 
 ## Reference
 
