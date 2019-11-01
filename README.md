@@ -29,7 +29,7 @@ This github repository consists of the scripts we used to conduct query and clea
 
 ## Reference
 
-The data set is introduced together with the following paper, so if you find this data set helpful, please consider cite: 
+The data set is introduced together with the following paper (to appear at NeurIPS 2019), so if you find this data set helpful, please consider cite: 
     
    [Learning Robust Global Representations by Penalizing Local Predictive Power](https://arxiv.org/abs/1905.13549)
    
