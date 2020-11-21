@@ -42,14 +42,14 @@ This github repository consists of the scripts we used to conduct query and clea
 
 ## Reference
 
-The data set is introduced together with the following paper (to appear at NeurIPS 2019), so if you find this data set helpful, please consider cite: 
+The data set is introduced together with the following paper in NeurIPS 2019, so if you find this data set helpful, please consider citing it: 
     
    [Learning Robust Global Representations by Penalizing Local Predictive Power](https://arxiv.org/abs/1905.13549)
    
 @inproceedings{wang2019learning,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title={Learning Robust Global Representations by Penalizing Local Predictive Power},  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author={Wang, Haohan and Ge, Songwei and Lipton, Zachary and Xing, Eric P},  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;booktitle={Advances in Neural Information Processing Systems},
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages={10506--10518},
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year={2019}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;booktitle={Advances in Neural Information Processing Systems},  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages={10506--10518},  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year={2019}  
 }
