@@ -21,7 +21,20 @@ This github repository consists of the scripts we used to conduct query and clea
  - Information
      - zip file is 7.8 GB
      - extracted files will be 8.4 GB
-     
+
+## ImageNet-Sketch Leaderboard
+
+|            Method                 |                                 Reference                  |   Backbone  |     From Scratch*    |   Top1-Acc.    |      Top5-Acc. |
+|-----------------------------------|---------------------------------------------------------------|:-------:|:-------:| :-------:| :-------:|
+| Texture Debiased Augmentation | [Hermann et al.](https://proceedings.neurips.cc/paper/2020/hash/db5f9f42a7157abe65bb145000b5871a-Abstract.html) (NeurIPS 2020) | ResNet50 | Y | 30.9%  |  51.4%
+| Anisotropic diffusion | [Mishra et al.](https://arxiv.org/abs/2011.01901) | ResNet50 | Y | 24.49%   |  41.81%
+| Random Convolutions | [Xu et al.](https://arxiv.org/abs/2007.13003) | AlexNet | Y | 18.09%   |  35.40%
+| [RSC](https://github.com/DeLightCMU/RSC) | [Huang et al.](https://arxiv.org/abs/2007.02454) (ECCV 2020) | AlexNet | Y | 16.12%   |  30.78%
+| [PAR](https://github.com/HaohanWang/PAR_experiments) | [Wang et al.](https://arxiv.org/abs/1905.13549) (NeurIPS 2019) | AlexNet | N | 13.06%   |  26.27%
+| AlexNet Baseline                  |                                                               | AlexNet    | N/A | 12.04%   | 24.80%
+
+*This column indicates whether the model is trained from the scratch or built and fine-tuned based a pretrained backbone model.
+
 ## Analysis 
 
  - An interesting analysis is performed at Kaggle, evaluating a large number of CNNs with our data set
@@ -29,15 +42,14 @@ This github repository consists of the scripts we used to conduct query and clea
 
 ## Reference
 
-The data set is introduced together with the following paper (to appear at NeurIPS 2019), so if you find this data set helpful, please consider cite: 
+The data set is introduced together with the following paper in NeurIPS 2019, so if you find this data set helpful, please consider citing it: 
     
    [Learning Robust Global Representations by Penalizing Local Predictive Power](https://arxiv.org/abs/1905.13549)
    
-@misc{wang2019learning,  
+@inproceedings{wang2019learning,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title={Learning Robust Global Representations by Penalizing Local Predictive Power},  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author={Haohan Wang and Songwei Ge and Eric P. Xing and Zachary C. Lipton},  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year={2019},  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eprint={1905.13549},  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;archivePrefix={arXiv},  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;primaryClass={cs.CV}  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author={Wang, Haohan and Ge, Songwei and Lipton, Zachary and Xing, Eric P},  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;booktitle={Advances in Neural Information Processing Systems},  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages={10506--10518},  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year={2019}  
 }
