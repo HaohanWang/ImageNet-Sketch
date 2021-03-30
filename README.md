@@ -39,6 +39,8 @@ This github repository consists of the scripts we used to conduct query and clea
 
  - An interesting analysis is performed at Kaggle, evaluating a large number of CNNs with our data set
      - [Can pretrained ImageNet models generalize to sketches](https://www.kaggle.com/rwightman/generalization-to-imagenet-sketch)
+ - A comprehensive evaluation of popular vision models on ImageNet-Sketch
+     - [Pytorch Image Models' performances on ImageNet Sketch (300+ models)](https://github.com/rwightman/pytorch-image-models/blob/master/results/results-sketch.csv)
 
 ## Reference
 
