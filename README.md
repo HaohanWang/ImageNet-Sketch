@@ -15,6 +15,13 @@ This github repository consists of the scripts we used to conduct query and clea
 
 ## Download the Data 
 
+ - Hugging Face [dataset](https://huggingface.co/datasets/imagenet_sketch)
+     - one can use the data with
+          ```
+          from datasets import load_dataset
+          dataset = load_dataset("imagenet_sketch")  
+          ```
+     - Thanks to [Nathan Raw](https://github.com/nateraw) for setting up
  - Links
      - from [Google Drive](https://drive.google.com/open?id=1Mj0i5HBthqH1p_yeXzsg22gZduvgoNeA)
      - from [Kaggle](https://www.kaggle.com/wanghaohan/imagenetsketch)
